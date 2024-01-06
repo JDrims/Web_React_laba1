@@ -3,6 +3,7 @@ import Header from "./components/Header/Header";
 import ServiceCard from "./components/ServiceCard/ServiceCard";
 import Slider from "./components/Slider/Slider";
 import ArticleCard from "./components/ArticleCard/ArticleCard";
+import Footer from "./components/Footer/Footer";
 
 function App() {
   return (
@@ -11,6 +12,7 @@ function App() {
       <ServiceCard />
       <Slider />
       <ArticleCard />
+      <Footer />
     </>
   );
 }
